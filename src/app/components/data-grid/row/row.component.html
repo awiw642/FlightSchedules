@@ -11,7 +11,7 @@
     <div class="row-cell">
         <p>{{row.originDestination}}</p>
     </div>
-    <div class="row-cell">
+    <div class="row-cell" (click)="register.emit(row)">
         <p *ngIf="row.registration === '' || row.registration === null">...........</p>
         <p *ngIf="row.registration !== '' && row.registration !== null">{{row.registration}}</p>
     </div>
