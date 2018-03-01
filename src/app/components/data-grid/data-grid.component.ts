@@ -9,7 +9,8 @@ import { FlightsService } from '../../services/flights.service';
 })
 export class DataGridComponent {
   constructor(private flightService: FlightsService) {}
-  @Input() public rows: Array<IFlight>;
+  @Input() public flightRows: Array<IFlight>;
+  @Input() public registrationRows: string[];
   @Output() load = new EventEmitter();
   public display = false;
   public selectedFlight: IFlight = {
@@ -20,9 +21,11 @@ export class DataGridComponent {
     registration: '',
   };
   public flightRegistration: string;
+  public suggestionsList: string[];
   public sampleHeaders = ['flight', 'sch. date', 'sch.time', 'o/d', 'registration'];
 
   showDialog(): void {
+    console.log(this.flightRows);
     this.display = true;
   }
 
@@ -49,5 +52,19 @@ export class DataGridComponent {
       console.log('Is this response: ', response);
     });
     this.closeDialog();
+  }
+
+  filterRegistration(event, registrations: any[]): void {
+    const{ query } = event;
+    const filtered: string[] = [];
+    console.log('ID HERE: ', registrations[0].id);
+    for (let i = 0; i < registrations.length; i++) {
+      const registration = registrations[i];
+      if (registration.id.toLowerCase().indexOf(query.toLowerCase()) >= 0) {
+        filtered.push(registration.id);
+      }
+    }
+    console.log(filtered);
+    this.suggestionsList = filtered;
   }
 }

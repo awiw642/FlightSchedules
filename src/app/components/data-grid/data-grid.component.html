@@ -1,6 +1,6 @@
 <grid-header [headers]="sampleHeaders"></grid-header>
-<div *ngIf="rows">
-    <data-row *ngFor="let row of rows" [row]="row" (register)="register($event)">
+<div *ngIf="flightRows">
+    <data-row *ngFor="let row of flightRows" [row]="row" (register)="register($event)">
     </data-row>
 </div>
 <p-dialog [(visible)]="display" modal="modal" width="300" [responsive]="true">
@@ -9,13 +9,12 @@
         <p>{{selectedFlight.scheduledDate | date:"dd/MM/yy"}} - {{selectedFlight.scheduledDate | date:"hh:mm"}}</p>
     </p-header>
     <form>
-        <input placeholder="Registration" [(ngModel)]="flightRegistration" type="text" name="registration">
+        <p-autoComplete [style.display]="none" name="registration" [(ngModel)]="flightRegistration" [suggestions]="suggestionsList" (completeMethod)="filterRegistration($event, registrationRows)"
+            [size]="30" [minLength]="2"></p-autoComplete>
+        <!-- <input placeholder="Registration" [(ngModel)]="flightRegistration" type="text" name="registration"> -->
     </form>
-    <p>{{flightRegistration}}</p>
     <p-footer>
         <button type="button" pButton (click)="closeDialog();$event.stopImmediatePropagation();" label="Cancel"></button>
         <button type="button" pButton (click)="saveRegistration();$event.stopImmediatePropagation();" label="Save"></button>
     </p-footer>
 </p-dialog>
-
-<button type="button" (click)="showDialog()" pButton icon="fa-external-link-square" label="Show"></button>

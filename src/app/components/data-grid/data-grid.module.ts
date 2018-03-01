@@ -8,8 +8,10 @@ import { RowModule } from './row/row.module';
 import { CommonModule } from '@angular/common';
 import { DialogModule } from 'primeng/dialog';
 import { ButtonModule } from 'primeng/button';
+import { AutoCompleteModule } from 'primeng/autocomplete';
 
 import { FlightsService } from '../../services/flights.service';
+import { RegistrationsService } from '../../services/registrations.service';
 
 @NgModule({
   declarations: [DataGridComponent],
@@ -20,9 +22,10 @@ import { FlightsService } from '../../services/flights.service';
     CommonModule,
     DialogModule,
     ButtonModule,
+    AutoCompleteModule,
     BrowserAnimationsModule,
     FormsModule,
   ],
-  providers: [FlightsService],
+  providers: [FlightsService, RegistrationsService],
 })
 export class DataGridModule {}
