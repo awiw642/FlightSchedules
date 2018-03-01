@@ -1,0 +1,704 @@
+{
+  "flights": [
+    {
+      "id": "397163",
+      "FlightNumber": "PC123",
+      "DateTime": "1511433581000",
+      "Origin/Destination": "Wroclaw",
+      "Registration": ""
+    },
+    {
+      "id": "397164",
+      "FlightNumber": "PC145",
+      "DateTime": "1511434322000",
+      "Origin/Destination": "Warsaw",
+      "Registration": ""
+    },
+    {
+      "id": "398692",
+      "FlightNumber": "FEI760",
+      "DateTime": "1511695800000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398680",
+      "FlightNumber": "N27VP",
+      "DateTime": "1511695800000",
+      "Origin/Destination": "Keflav�k",
+      "Registration": "N27VP"
+    },
+    {
+      "id": "398694",
+      "FlightNumber": "MYA77",
+      "DateTime": "1511696700000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398693",
+      "FlightNumber": "FEI760",
+      "DateTime": "1511696820000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398698",
+      "FlightNumber": "FEI720",
+      "DateTime": "1511697600000",
+      "Origin/Destination": "B�ldudalur",
+      "Registration": ""
+    },
+    {
+      "id": "398690",
+      "FlightNumber": "FEI761",
+      "DateTime": "1511698500000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398695",
+      "FlightNumber": "MYA77",
+      "DateTime": "1511698980000",
+      "Origin/Destination": "Akureyri",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398699",
+      "FlightNumber": "FEI720",
+      "DateTime": "1511699460000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398691",
+      "FlightNumber": "FEI761",
+      "DateTime": "1511699460000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398700",
+      "FlightNumber": "FEI721",
+      "DateTime": "1511701200000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398696",
+      "FlightNumber": "MYA77",
+      "DateTime": "1511701200000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398704",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511702400000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398701",
+      "FlightNumber": "FEI721",
+      "DateTime": "1511702820000",
+      "Origin/Destination": "B�ldudalur",
+      "Registration": ""
+    },
+    {
+      "id": "398697",
+      "FlightNumber": "MYA77",
+      "DateTime": "1511704020000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398720",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511704800000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398702",
+      "FlightNumber": "MYA78",
+      "DateTime": "1511704800000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398705",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511704980000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398714",
+      "FlightNumber": "FEI742",
+      "DateTime": "1511706600000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398721",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511706900000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398706",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511706900000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398703",
+      "FlightNumber": "MYA78",
+      "DateTime": "1511706900000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398722",
+      "FlightNumber": "MYA77A",
+      "DateTime": "1511708400000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398707",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511709360000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398715",
+      "FlightNumber": "FEI742",
+      "DateTime": "1511709780000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398723",
+      "FlightNumber": "MYA77A",
+      "DateTime": "1511711640000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398716",
+      "FlightNumber": "FEI743",
+      "DateTime": "1511712000000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398724",
+      "FlightNumber": "MYA77A",
+      "DateTime": "1511712900000",
+      "Origin/Destination": "�safj�r�ur",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398718",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511713200000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398717",
+      "FlightNumber": "FEI743",
+      "DateTime": "1511714880000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398725",
+      "FlightNumber": "MYA77A",
+      "DateTime": "1511715240000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398719",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511715300000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398733",
+      "FlightNumber": "FEI754",
+      "DateTime": "1511716500000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398738",
+      "FlightNumber": "FEI764",
+      "DateTime": "1511717400000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398726",
+      "FlightNumber": "MYA78A",
+      "DateTime": "1511717400000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398739",
+      "FlightNumber": "FEI764",
+      "DateTime": "1511718420000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398734",
+      "FlightNumber": "FEI754",
+      "DateTime": "1511718660000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398727",
+      "FlightNumber": "MYA78A",
+      "DateTime": "1511719800000",
+      "Origin/Destination": "�safj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398735",
+      "FlightNumber": "FEI755",
+      "DateTime": "1511720100000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398740",
+      "FlightNumber": "FEI765",
+      "DateTime": "1511720100000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398736",
+      "FlightNumber": "FEI755",
+      "DateTime": "1511722200000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398743",
+      "FlightNumber": "FXI167",
+      "DateTime": "1511729280000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398742",
+      "FlightNumber": "N621JA",
+      "DateTime": "1511729640000",
+      "Origin/Destination": "Kuujjuaq",
+      "Registration": ""
+    },
+    {
+      "id": "398745",
+      "FlightNumber": "MYA77B",
+      "DateTime": "1511739000000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398747",
+      "FlightNumber": "MYA77B",
+      "DateTime": "1511742600000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398741",
+      "FlightNumber": "N27VP",
+      "DateTime": "1511766000000",
+      "Origin/Destination": "Wick",
+      "Registration": ""
+    },
+    {
+      "id": "398766",
+      "FlightNumber": "FEI750",
+      "DateTime": "1511768400000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398770",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511769900000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398744",
+      "FlightNumber": "N621JA",
+      "DateTime": "1511770500000",
+      "Origin/Destination": "Roskilde",
+      "Registration": "N621JA"
+    },
+    {
+      "id": "398767",
+      "FlightNumber": "FEI750",
+      "DateTime": "1511771220000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398748",
+      "FlightNumber": "MYA77B",
+      "DateTime": "1511743860000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": "TFMYV"
+    },
+    {
+      "id": "398760",
+      "FlightNumber": "FN564",
+      "DateTime": "1511772000000",
+      "Origin/Destination": "Vopnafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398771",
+      "FlightNumber": "FEI752",
+      "DateTime": "1511772540000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398775",
+      "FlightNumber": "FEI740",
+      "DateTime": "1511772900000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398768",
+      "FlightNumber": "FEI751",
+      "DateTime": "1511772900000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398780",
+      "FlightNumber": "FN564",
+      "DateTime": "1511773200000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398761",
+      "FlightNumber": "FN564",
+      "DateTime": "1511773260000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398789",
+      "FlightNumber": "FXI113",
+      "DateTime": "1511773440000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398772",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511774400000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398769",
+      "FlightNumber": "FEI751",
+      "DateTime": "1511775300000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398781",
+      "FlightNumber": "FN565",
+      "DateTime": "1511775600000",
+      "Origin/Destination": "Vopnafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398762",
+      "FlightNumber": "FN565",
+      "DateTime": "1511775600000",
+      "Origin/Destination": "��rsh�fn",
+      "Registration": ""
+    },
+    {
+      "id": "398776",
+      "FlightNumber": "FEI740",
+      "DateTime": "1511775900000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398763",
+      "FlightNumber": "FN565",
+      "DateTime": "1511776200000",
+      "Origin/Destination": "Vopnafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398791",
+      "FlightNumber": "FXI327",
+      "DateTime": "1511776320000",
+      "Origin/Destination": "Egilssta�ir",
+      "Registration": ""
+    },
+    {
+      "id": "398782",
+      "FlightNumber": "FN565",
+      "DateTime": "1511776500000",
+      "Origin/Destination": "��rsh�fn",
+      "Registration": ""
+    },
+    {
+      "id": "398773",
+      "FlightNumber": "FEI753",
+      "DateTime": "1511776740000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398777",
+      "FlightNumber": "FEI741",
+      "DateTime": "1511777400000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398764",
+      "FlightNumber": "FN567",
+      "DateTime": "1511777400000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398783",
+      "FlightNumber": "FN567",
+      "DateTime": "1511777400000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398765",
+      "FlightNumber": "FN567",
+      "DateTime": "1511778540000",
+      "Origin/Destination": "��rsh�fn",
+      "Registration": ""
+    },
+    {
+      "id": "398784",
+      "FlightNumber": "FN567",
+      "DateTime": "1511778660000",
+      "Origin/Destination": "Vopnafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398778",
+      "FlightNumber": "FEI741",
+      "DateTime": "1511780280000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398689",
+      "FlightNumber": "FXI329",
+      "DateTime": "1511781780000",
+      "Origin/Destination": "Egilssta�ir",
+      "Registration": ""
+    },
+    {
+      "id": "398793",
+      "FlightNumber": "FEI720",
+      "DateTime": "1511782200000",
+      "Origin/Destination": "B�ldudalur",
+      "Registration": ""
+    },
+    {
+      "id": "398802",
+      "FlightNumber": "FXI121",
+      "DateTime": "1511783880000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398803",
+      "FlightNumber": "FXI17",
+      "DateTime": "1511783940000",
+      "Origin/Destination": "�safj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398796",
+      "FlightNumber": "FEI762",
+      "DateTime": "1511784000000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398794",
+      "FlightNumber": "FEI720",
+      "DateTime": "1511784300000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398797",
+      "FlightNumber": "FEI762",
+      "DateTime": "1511784960000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398795",
+      "FlightNumber": "FEI721",
+      "DateTime": "1511785800000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398798",
+      "FlightNumber": "FEI763",
+      "DateTime": "1511786700000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398799",
+      "FlightNumber": "FEI763",
+      "DateTime": "1511787840000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398708",
+      "FlightNumber": "MYA77",
+      "DateTime": "1511787840000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398709",
+      "FlightNumber": "FXI123",
+      "DateTime": "1511788860000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    },
+    {
+      "id": "398710",
+      "FlightNumber": "FEI721",
+      "DateTime": "1511789220000",
+      "Origin/Destination": "B�ldudalur",
+      "Registration": "TFORA"
+    },
+    {
+      "id": "398804",
+      "FlightNumber": "FXI331",
+      "DateTime": "1511793300000",
+      "Origin/Destination": "Egilssta�ir",
+      "Registration": ""
+    },
+    {
+      "id": "398805",
+      "FlightNumber": "FEI766",
+      "DateTime": "1511797500000",
+      "Origin/Destination": "Vestmannaeyjar",
+      "Registration": ""
+    },
+    {
+      "id": "398813",
+      "FlightNumber": "FEI756",
+      "DateTime": "1511798100000",
+      "Origin/Destination": "H�sav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398728",
+      "FlightNumber": "MYA77A",
+      "DateTime": "1511798100000",
+      "Origin/Destination": "Hornafj�r�ur",
+      "Registration": ""
+    },
+    {
+      "id": "398712",
+      "FlightNumber": "VCG5B",
+      "DateTime": "1511798280000",
+      "Origin/Destination": "Goose Bay",
+      "Registration": "GCMTO"
+    },
+    {
+      "id": "398806",
+      "FlightNumber": "FEI766",
+      "DateTime": "1511798400000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398713",
+      "FlightNumber": "VCG5C",
+      "DateTime": "1511798700000",
+      "Origin/Destination": "Blackpool",
+      "Registration": ""
+    },
+    {
+      "id": "398729",
+      "FlightNumber": "GCMTO",
+      "DateTime": "1511800080000",
+      "Origin/Destination": "Gander Intl",
+      "Registration": "GCMTO"
+    },
+    {
+      "id": "398730",
+      "FlightNumber": "VCG5A",
+      "DateTime": "1511800080000",
+      "Origin/Destination": "Gander Intl",
+      "Registration": "GCMTO"
+    },
+    {
+      "id": "398807",
+      "FlightNumber": "FEI767",
+      "DateTime": "1511800200000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398751",
+      "FlightNumber": "PCH757",
+      "DateTime": "1511800500000",
+      "Origin/Destination": "Prestwick",
+      "Registration": "HBFQT"
+    },
+    {
+      "id": "398814",
+      "FlightNumber": "FEI756",
+      "DateTime": "1511800740000",
+      "Origin/Destination": "Reykjav�k",
+      "Registration": ""
+    },
+    {
+      "id": "398746",
+      "FlightNumber": "MYA77B",
+      "DateTime": "1511741400000",
+      "Origin/Destination": "Akureyri",
+      "Registration": ""
+    }
+  ]
+}
