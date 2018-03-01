@@ -1,13 +1,10 @@
-import { 
-    Component,
-    Input
-} from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: "grid-header",
-  templateUrl: "./header.component.html",
-  styleUrls: ["./header.component.css"]
+  selector: 'grid-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css'],
 })
 export class GridHeaderComponent {
-    @Input() headers: string[];
+  @Input() headers: string[];
 }
