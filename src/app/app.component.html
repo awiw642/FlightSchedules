@@ -1,4 +1,2 @@
-<data-grid
-    [rows]="data"
->
+<data-grid [rows]="data" (load)="getFlights($event)">
 </data-grid>
