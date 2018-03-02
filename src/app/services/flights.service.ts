@@ -13,7 +13,6 @@ export class FlightsService {
 
   allFlights() {
     return this.http.get(API_URL).map(res => {
-      console.log('Get All the flights');
       return res.json().map(flight => {
         const {
           id,

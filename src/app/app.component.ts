@@ -24,7 +24,6 @@ export class AppComponent implements OnInit {
   getFlights() {
     this.flightsService.allFlights().subscribe(flights => {
       this.data = flights;
-      console.log(flights);
     });
   }
 

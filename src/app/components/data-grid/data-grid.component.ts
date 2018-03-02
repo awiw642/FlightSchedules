@@ -27,7 +27,6 @@ export class DataGridComponent {
   public sampleHeaders = ['flight', 'sch. date', 'sch.time', 'o/d', 'registration'];
 
   showDialog(): void {
-    console.log(this.flightRows);
     this.display = true;
   }
 
@@ -44,7 +43,6 @@ export class DataGridComponent {
     this.showDialog();
     this.selectFlight(flight);
     this.flightRegistration = flight.registration;
-    console.log(this.selectedFlight);
   }
 
   saveRegistration() {
@@ -62,14 +60,12 @@ export class DataGridComponent {
   filterRegistration(event, registrations: any[]): void {
     const{ query } = event;
     const filtered: string[] = [];
-    console.log('ID HERE: ', registrations[0].id);
     for (let i = 0; i < registrations.length; i++) {
       const registration = registrations[i];
       if (registration.id.toLowerCase().indexOf(query.toLowerCase()) >= 0) {
         filtered.push(registration.id);
       }
     }
-    console.log(filtered);
     this.suggestionsList = filtered;
   }
 }

@@ -12,7 +12,6 @@ export class RegistrationsService {
 
   allRegistrations() {
     return this.http.get(API_URL).map(res => {
-      console.log('Get All the registrations: ', res.json());
       return res.json();
     });
   }
