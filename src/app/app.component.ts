@@ -31,4 +31,11 @@ export class AppComponent implements OnInit {
   getRegistrations() {
     this.registrationsService.allRegistrations().subscribe(registrations => this.registrations = registrations);
   }
+
+  saveRegistration(flight: IFlight) {
+    return this.data.map((row) => {
+      if (row.id === flight.id) { row.registration = flight.registration; }
+      return row;
+    });
+  }
 }

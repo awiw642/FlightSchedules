@@ -13,6 +13,7 @@ export class DataGridComponent {
   @Input() public flightRows: Array<IFlight>;
   @Input() public registrationRows: string[];
   @Output() load = new EventEmitter();
+  @Output() save = new EventEmitter();
   public display = false;
   public selectedFlight: IFlight = {
     id: '',
@@ -47,11 +48,14 @@ export class DataGridComponent {
   }
 
   saveRegistration() {
-    this.flightService.registerFlight(
-      Object.assign({}, this.selectedFlight, { registration: this.flightRegistration })
-    ).subscribe((response) => {
-      console.log('Is this response: ', response);
-    });
+    // COMMENT: Uncomment the piece below to persist data to the mock server
+    // this.flightService.registerFlight(
+    //   Object.assign({}, this.selectedFlight, { registration: this.flightRegistration })
+    // ).subscribe((response) => {
+    //   console.log('Is this response: ', response);
+    // });
+    const flight = Object.assign({}, this.selectedFlight, { registration: this.flightRegistration });
+    this.save.emit(flight);
     this.closeDialog();
   }
 
