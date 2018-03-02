@@ -3,18 +3,19 @@
     <data-row *ngFor="let row of flightRows" [row]="row" (register)="register($event)">
     </data-row>
 </div>
-<p-dialog [(visible)]="display" modal="modal" width="300" [responsive]="true">
+<p-dialog styleClass="dialog" [(visible)]="display" modal="modal" width="400" height="300" [responsive]="true">
     <p-header>
-        <h1>Registration {{selectedFlight.flightNumber}}</h1>
+        <h1>{{selectedFlight.flightNumber}} Registration</h1>
         <p>{{selectedFlight.scheduledDate | date:"dd/MM/yy"}} - {{selectedFlight.scheduledDate | date:"hh:mm"}}</p>
     </p-header>
+    
     <form>
-        <p-autoComplete [style.display]="none" name="registration" [(ngModel)]="flightRegistration" [suggestions]="suggestionsList" (completeMethod)="filterRegistration($event, registrationRows)"
-            [size]="30" [minLength]="2"></p-autoComplete>
-        <!-- <input placeholder="Registration" [(ngModel)]="flightRegistration" type="text" name="registration"> -->
+        <label #label>Registration</label><br/>
+        <p-autoComplete name="registration" [(ngModel)]="flightRegistration" [suggestions]="suggestionsList" (completeMethod)="filterRegistration($event, registrationRows)"
+            [size]="45" [minLength]="2"></p-autoComplete>
     </form>
     <p-footer>
-        <button type="button" pButton (click)="closeDialog();$event.stopImmediatePropagation();" label="Cancel"></button>
+        <button type="button" pButton (click)="closeDialog();$event.stopImmediatePropagation();" label="Cancel" class="ui-button-secondary"></button>
         <button type="button" pButton (click)="saveRegistration();$event.stopImmediatePropagation();" label="Save"></button>
     </p-footer>
 </p-dialog>

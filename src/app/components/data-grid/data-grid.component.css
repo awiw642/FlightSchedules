@@ -1,0 +1,59 @@
+.dialog-header {
+  padding: 3.5em;
+}
+
+.ui-dialog.ui-widget .ui-dialog-titlebar {
+  background: #e8e8ed;
+  padding: 1em 3.5em;
+}
+
+.ui-dialog.ui-widget .ui-dialog-content {
+  padding: 2.5em 1.5em;
+}
+
+.ui-dialog-content.ui-widget-content {
+  overflow: visible;
+  height: 8em;
+}
+
+.ui-dialog-footer {
+  margin-top: 1.67em;
+  height: 5.5em;
+  width: 100%;
+  background: #e8e8ed;
+}
+
+.ui-corner-all {
+  border-radius: 1.5px;
+}
+
+.ui-button.ui-button-secondary.ui-state-default, .ui-splitbutton.ui-button-secondary .ui-button.ui-state-default {
+  border: 2px solid #76b1d8;
+  margin-right: 0.5em;
+  height: 2.3em;
+  width: 7em;
+}
+
+.ui-widget-header .ui-button, .ui-widget-content .ui-button, .ui-widget.ui-button, .ui-button {
+  border: 2px solid #76b1d8;
+  margin-right: 6em;
+  height: 2.3em;
+  width: 7em;
+}
+
+.ui-widget-header .ui-inputtext, .ui-widget-content .ui-inputtext {
+  height: 2.5em;
+  margin-top: 0.5em;
+}
+
+h1 {
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+}
+
+p-header > p {
+  font-size: 0.7em;
+  font-family: sans-serif;
+}

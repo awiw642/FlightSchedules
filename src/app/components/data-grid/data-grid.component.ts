@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 import { IFlight } from 'app/models/flight.interface';
 import { FlightsService } from '../../services/flights.service';
 
@@ -6,6 +6,7 @@ import { FlightsService } from '../../services/flights.service';
   selector: 'data-grid',
   templateUrl: './data-grid.component.html',
   styleUrls: ['./data-grid.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class DataGridComponent {
   constructor(private flightService: FlightsService) {}
